@@ -28,12 +28,12 @@ System.Console.WriteLine($"введено {sizeOfNewArray} элементов, �
 
 if (sizeOfNewArray != 0)
 {
-    string[] FinalArray = new string[sizeOfNewArray]; // Создаём новый строковый массив из sizeOfNewArray элементов 
+    string[] finalArray = new string[sizeOfNewArray]; // Создаём новый строковый массив из sizeOfNewArray элементов 
     for (int i = 0; i < sizeOfNewArray; i++)
     {
-        FinalArray[i] = InputStringArray[indexesAndSize[i]];
+        finalArray[i] = InputStringArray[indexesAndSize[i]];
     }
-    PrintArray(FinalArray);
+    PrintArray(finalArray);
 }
 else { System.Console.WriteLine("Конец"); }
 
